@@ -1,7 +1,8 @@
 import { ProfileData } from "../assest/profile";
 
 export const checkAuthentication = (email, password) => {
-    return ProfileData.some((user) => user.email === email && user.password === password);
+    const user = ProfileData.find((user) => user.email === email && user.password === password);
+    return user 
 };
 
 export const checkAdminStatus = (email) => {
@@ -13,5 +14,5 @@ export const checkAdminStatus = (email) => {
 export const getProfileData = (email) => {
     // Example: Retrieve profile data based on email
     const user = ProfileData.find((user) => user.email === email);
-    return user ? { email: user.email, isAdmin: user.isAdmin } : null;
+    return user ? user : null;
 };

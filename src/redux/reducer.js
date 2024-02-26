@@ -1,6 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { ProfileData } from '../assest/profile';
-import { redirect } from 'react-router-dom';
 import { checkAuthentication, getProfileData } from './helper';
 
 export const profileSlice = createSlice({

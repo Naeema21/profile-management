@@ -1,6 +1,15 @@
 .App {
   margin: 0px;
   padding: 0px;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
 }
 
 p {
@@ -97,7 +106,12 @@ button {
   border: 1px solid #d9d9d9;
 }
 
+button:hover{
+  border-color: #1890ff;
+}
+
 .primary-button {
+  width: 100%;
   color: #fff;
   background-color: #1890ff;
   border-color: #1890ff;
@@ -168,12 +182,71 @@ button {
   justify-content: center;
 }
 
-.logout-container{
+
+/*--------------- navbar-------------------- */
+
+/* NavBar.css */
+.navbar-container {
   display: flex;
   justify-content: end;
-  margin:  10px 0px;
+  align-items: center;
+  padding: 10px;
+  background-color: #007bff;
+  color: #000;
 }
 
+.navbar-container a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-container .icon {
+  cursor: pointer;
+  font-size: 24px;
+  margin-right: 10px;
+  color: #f5f5f5;
+}
+
+.dropdown-menu {
+  padding: 5px;
+  text-align: center;
+  /* display: none; */
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column;
+  }
+
+  .navbar-container a {
+    margin: 5px 0;
+  }
+}
 
 
 /*---------------------- card------------------------- */

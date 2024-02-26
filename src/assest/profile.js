@@ -8,7 +8,7 @@ export const ProfileData = [
     "phone": "1-770-736-8031 x56442",
     "website": "http://hildegard.org",
     "profile_pic": "https://avatars.dicebear.com/v2/avataaars/Bret.svg?options[mood][]=happy",
-    "wishlist": false,
+    "wishlist": true,
     "isAdmin" : true,
   },
   {

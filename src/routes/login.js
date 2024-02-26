@@ -59,7 +59,8 @@ const LoginScreen = () => {
         e.preventDefault();
 
         if (validateForm()) {
-            dispatch(login(formData?.email))
+          const error =  dispatch(login(formData?.email))
+          console.log(error)
             navigate("/profile");
         }
     };

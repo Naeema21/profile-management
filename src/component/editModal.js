@@ -145,7 +145,7 @@ const EditModal = ({ isModalOpen, setIsModalOpen, profile, isEdit }) => {
                                         </div>
                                     </div>
                                     :
-                                    <div className='info' style={{ margin: '10px', fontWeight: 'bold' }}> Only admin can edit </div>
+                                    <div className='info' style={{ margin: '10px', fontWeight: 'bold' }}> Only admin can edit / add </div>
                             }
 
                             <div className="modal-footer">
