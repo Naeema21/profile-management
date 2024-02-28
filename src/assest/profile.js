@@ -100,6 +100,26 @@ export const ProfileData = [
     "profile_pic": "https://avatars.dicebear.com/v2/avataaars/Bret.svg?options[mood][]=happy",
     "wishlist": false,
     "isAdmin" : true,
-  }
+  },
+  {
+    id: 11,
+    "name": "Admin",
+    "email": "admin@gmail.com",
+    "phone": "1-770-736-8031 x56442",
+    "website": "http://admin.org",
+    "profile_pic": "https://avatars.dicebear.com/v2/avataaars/Bret.svg?options[mood][]=happy",
+    "wishlist": true,
+    "isAdmin" : true,
+  },
+  {
+    id: 12,
+    "name": "User",
+    "email": "user@gmail.com",
+    "phone": "1-770-736-8031 x56442",
+    "website": "http://user.org",
+    "profile_pic": "https://avatars.dicebear.com/v2/avataaars/Bret.svg?options[mood][]=happy",
+    "wishlist": true,
+    "isAdmin" : true,
+  },
 ]
 

@@ -23,12 +23,12 @@ This is a simple profile management app that allows users to manage their profil
 
 ### Admin Credentials
 
-- **Email**: Sincere@april.biz
+- **Email**: admin@gmail.com
 - **Password**: [YourAdminPassword]
 
 ### Regular User Credentials
 
-- **Email**: Shanna@melissa.tv
+- **Email**: user@gmail.com
 - **Password**: [YourUserPassword]
 
 <!-- ## Technologies Used
